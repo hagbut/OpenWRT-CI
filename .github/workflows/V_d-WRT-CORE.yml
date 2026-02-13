@@ -171,7 +171,7 @@ jobs:
         run: |
           cd ./wrt/package/
           $GITHUB_WORKSPACE/Scripts/VIKINGYFY_Packages.sh
-          $GITHUB_WORKSPACE/Scripts/davidtall+Packages.sh
+          $GITHUB_WORKSPACE/Scripts/davidtall_Packages.sh
           $GITHUB_WORKSPACE/Scripts/VIKINGYFY_Handles.sh
       - name: Custom Settings
         run: |
